@@ -57,7 +57,8 @@ void Inflationary::buildPlusOneMap() {
     // ...
 }
 
-std::string Inflationary::scan() { 
+std::string Inflationary::scan() {
+    std::string result; 
     // scan through the input text, apply maximal munch (greedy algorithm) to
     // recognize numbers.
 
@@ -66,4 +67,6 @@ std::string Inflationary::scan() {
 
     // once recognize a number, use i and j to do string slicing, use plusOneMap to look
     // up new string
+
+    return result;
 }

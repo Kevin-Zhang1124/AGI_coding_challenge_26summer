@@ -12,4 +12,6 @@ int main() {
     std::string result = infl.scan();
     // output result
     std::cout << result << std::endl;
+
+    return 0;
 }
